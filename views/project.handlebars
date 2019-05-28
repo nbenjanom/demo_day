@@ -1,0 +1,38 @@
+
+<div class="container">
+  <div class="students-box-color"></div>
+    <div class="students-box-color2"></div>
+    <div class="students-box-color3"></div>
+    <div class="students-circle-color"></div>
+  <div class="row">
+    <article class="col-12 col-lg-8">
+      <div class="div-title-article">
+          <h1>{{project.name}}</h1>
+      </div>
+      <div class="div-slide">
+          <ul>
+              {{#each project.images}}
+              <li>
+                  <img class="mySlides" src="{{this}}" alt="image projet">
+              </li>
+              {{/each }}
+          </ul>
+          <div class="div-direction">
+              <div class="div-rigth" onclick="plusDivs(-1)">&#10094;</div>
+              <div class="div-left" onclick="plusDivs(1)">&#10095;</div>
+          </div>
+      </div>
+      <div class="container">
+        <ul class="row">
+          {{#each team}}
+            <li class="col-4">
+              <a href="/students/{{this.id}}">
+                <img src="{{this.image}}" class="img-fluid"/>
+              </a>
+            </li>
+          {{/each }}
+        </ul>
+      </div>
+    </article>
+  </div>
+</div>

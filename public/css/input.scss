@@ -1,0 +1,279 @@
+// Variables
+$font-stack: 'Open Sans', sans-serif;
+$font-title: 'Roboto Mono', monospace;
+
+$app-background: #f8f8f8;
+$text-color: #333;
+
+$primary-color: #f30be7;
+$secondary-color: #bdf391;
+$tertiary-color: #a5a5a5;
+$disabled-color: #757575;
+
+$linkedin: #0077B5;
+$github: #6e5494;
+$mail: #ea4c89;
+
+
+
+//Base
+body {
+  font-family: $font-stack;
+  color: $text-color;
+  background: $app-background;
+  a {
+    text-decoration: none;
+    color: $text-color;
+  }
+  a:hover {
+    text-decoration: none;
+    color: $primary-color;
+  }
+}
+.navbar {
+  z-index: 1000;
+}
+.navbar-brand {
+  color: $primary-color;
+  font-family: $font-title;
+  font-size: 2.5rem;
+  img {
+    width:1.5rem;
+  }
+}
+.nav-item {
+  font-family: $font-title;
+  color: $tertiary-color;  
+}
+
+//Footer
+.footer {
+  position: fixed;
+  bottom: 0;
+}
+.footer-content {
+  img {
+    width: 4rem;
+  }
+}
+// students
+.students-header {
+  height: 5rem;
+}
+
+// Profile Card 
+.profile-card {
+  margin-right: 2rem;
+  margin-bottom: 2rem;
+  display: flex;
+  font-family: $font-title;
+  font-weight: 300;
+  background: white;
+  box-shadow: 2px 2px 10px 1px rgba(122, 122, 122, 0.089);
+  transition: box-shadow 0.8s ease-in-out;
+}
+.profile-box-color {
+  background: lighten($secondary-color, 20%);
+  opacity: 0.7;
+  position: absolute;
+  height: 15rem;
+  width: 15rem;
+  -webkit-clip-path: polygon(100% 0, 0 0, 0 68%);
+  clip-path: polygon(100% 0, 0 0, 0 68%);
+}
+
+.profile-card:hover {
+  box-shadow: 3px 3px 10px 1px rgba(122, 122, 122, 0.24);
+  img {
+    transform: scale(1.1);
+  }
+}
+
+.profile-card-thumbnail {
+  height: 10rem;
+  width: 8rem;
+  -webkit-clip-path: polygon(0 0, 83% 0, 100% 100%, 0% 100%);
+  clip-path: polygon(0 0, 83% 0, 100% 100%, 0% 100%);
+  padding: 0;
+  img {
+    height: 100%;
+    transition: all .2s ease-in-out;
+  }
+}
+
+
+.profile-card-infos {
+  width: 60%;
+  padding-top: 0.5rem;
+  padding-left: 2rem;
+  z-index: 1000;
+  p {
+    color: darken($secondary-color, 20%);
+  }
+
+}
+
+// social icons
+.social-icons {
+  display: flex;
+  font-size: 1.2rem;
+}
+
+.social-box {
+  margin-right: 0.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1.8rem;
+  height: 1.8rem;
+  transition: all .2s ease-in-out;
+  color: lighten($text-color, 10%);
+}
+
+.linkedin:hover, 
+  .github:hover,
+  .mail:hover {
+  background: desaturate($primary-color, 20%);
+  color: white;
+}
+
+// Student Page
+.student-header {
+  font-family: $font-title;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Css Animations
+.students-box-color {
+  background: lighten($primary-color, 15%);
+  opacity: 0.4;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 30vw;
+  height: 70vh;
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 74%, 35% 100%);
+clip-path: polygon(0 0, 100% 0, 100% 74%, 35% 100%);
+}
+.students-box-color2 {
+  background: desaturate($primary-color, 25%);
+  opacity: 0.4;
+  z-index: 0;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 20rem;
+  height: 40vh;
+  -webkit-clip-path: polygon(0 44%, 100% 58%, 85% 100%, 0 100%);
+  clip-path: polygon(0 44%, 100% 58%, 85% 100%, 0 100%);
+}
+.students-box-color3 {
+  background: desaturate($secondary-color, 20%);
+  opacity: 0.4;
+  z-index: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 20rem;
+  height: 20vh;
+  -webkit-clip-path: polygon(0 0, 100% 0, 87% 48%, 0 100%);
+  clip-path: polygon(0 0, 100% 0, 87% 48%, 0 100%);
+}
+
+.students-circle-color {
+	width: 30vw;
+  height: 30vw;
+  background: desaturate($secondary-color, 20%);
+  position: fixed;
+  opacity: 0.4;
+  z-index: 0;
+  right: -10rem;
+	border-radius: 50%;
+	transform: translatey(0);
+	animation: float 18s ease-in-out infinite;
+}
+
+@keyframes float {
+	0% {
+		transform: translatey(0);
+	}
+	50% {
+		transform: translatey(20rem);
+	}
+	100% {
+		transform: translatey(0);
+	}
+}
+
+
+
+
+
+
+.student-box-color {
+  background: lighten($secondary-color, 10%);
+  opacity: 0.7;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 40vw;
+  height: 60vh;
+  -webkit-clip-path: polygon(35% 0, 100% 0, 100% 100%, 68% 97%);
+  clip-path: polygon(35% 0, 100% 0, 100% 100%, 68% 97%);  
+}
+.student-box-color2 {
+  background: desaturate($primary-color, 25%);
+  opacity: 0.4;
+  z-index: 0;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 30rem;
+  height: 20vh;
+  -webkit-clip-path: polygon(0 0, 75% 38%, 100% 100%, 0 100%);
+  clip-path: polygon(0 0, 75% 38%, 100% 100%, 0 100%);
+  
+}
+
+.student-circle-color {
+	width: 30vw;
+  height: 30vw;
+  background: desaturate($secondary-color, 20%);
+  position: fixed;
+  opacity: 0.4;
+  z-index: 0;
+  left: -10rem;
+	border-radius: 50%;
+	transform: translatey(0);
+	animation: float 20s ease-in-out infinite;
+}
+
+@keyframes float {
+	0% {
+		transform: translatey(0);
+	}
+	50% {
+		transform: translatey(20rem);
+	}
+	100% {
+		transform: translatey(0);
+	}
+}
+

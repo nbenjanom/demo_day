@@ -1,0 +1,21 @@
+
+
+<div class="container-fluid profile-card">
+
+<div class="profile-box-color"></div>
+
+  <a class="row" >
+    <div class="profile-card-thumbnail">
+      <img src="{{this.image}}" alt="profile picture">
+    </div>
+    <div class="profile-card-infos" >
+      <a href="/students/{{this.id}}">
+        <h4>{{this.lastName}} {{this.firstName}}</h4>      
+      </a> 
+       <p>{{this.title}}</p> 
+      <div class="profile-social-icons">
+        {{> social-icons}}
+      </div>
+    </div>
+  </a>
+</div> 

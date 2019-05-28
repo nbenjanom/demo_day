@@ -1,0 +1,72 @@
+[
+    {
+        "id":1,
+        "Horodateur":"2019/04/04 8:37:14 PM UTC+2",
+        "firstName":"Blondel",
+        "lastName":"Gautier",
+        "image":"/img/profile/default.jpg",
+        "email":"blondelgautier@gmail.com",
+        "gitHub":"http://blablabla.com",
+        "linkedin":"http://blablabla.com",
+        "post":"Développeur Fullstack",
+        "technos":"REACT NATIVE;REDUX;EXPRESS",
+        "title":"Le chocolat existe pour",
+        "aboutMe":"HAHAHAHA j'adore Gérald Dahan d'ailleurs c'est mon cousin"
+    },
+    {
+        "id":2,
+        "Horodateur":"2019/04/07 3:48:31 PM UTC+2",
+        "firstName":"DIOUA",
+        "lastName":"Samia",
+        "image":"/img/profile/default.jpg",
+        "email":"dioua.samia@gmail.com",
+        "gitHub":"https://github.com/SAMIADIOUA",
+        "linkedin":"https://www.linkedin.com/in/dsamia/",
+        "post":"Développeur Fullstack",
+        "technos":"Javascript, NodeJS, ExpressJS, ReactJS, React Native, SQL, MongoDB,",
+        "title":"Développeuse FULL STACK",
+        "aboutMe":"\nPassionnée par les nouvelles technologies, je suis prête à relever de nouveaux défis et challenges ! \nMa relation avec la programmation a commencé quand j'étais en Ecole des Ingénieurs. Ma curiosité consiste à apprendre, à créer des programmes et à résoudre des bugs."
+    },
+    {
+        "id":3,
+        "Horodateur":"2019/04/07 5:48:32 PM UTC+2",
+        "firstName":"Baker",
+        "lastName":"Alex",
+        "image":"/img/profile/default.jpg",
+        "email":"alexbakerdeveloper@gmail.com",
+        "gitHub":"https://github.com/alexlabrioche",
+        "linkedin":"https://www.linkedin.com/in/alex-boulanger-113b9a178/",
+        "post":"Développeur Fullstack",
+        "technos":"React, Node.Js,",
+        "title":"Façonneur de Components ",
+        "aboutMe":"bang bang"
+    },
+    {
+        "id":4,
+        "Horodateur":"2019/04/08 11:39:57 AM UTC+2",
+        "firstName":"Gill",
+        "lastName":"Johnny",
+        "image":"/img/profile/default.jpg",
+        "email":"johnnty.gillzer@hotmail.com",
+        "gitHub":"https://fr.wikipedia.org/wiki/Doom",
+        "linkedin":"https://fr.wikipedia.org/wiki/batman",
+        "post":"Développeur Fullstack",
+        "technos":"Css Html C++",
+        "title":"Codeur Enragé",
+        "aboutMe":"Je suis le plus beau. Je suis le plus fort"
+    },
+    {
+        "id":5,
+        "Horodateur":"2019/04/08 11:49:40 AM UTC+2",
+        "firstName":"Khaireddine",
+        "lastName":"Ahmed",
+        "image":"/img/profile/default.jpg",
+        "email":"ahmed_khaireddine@yahoo.com",
+        "gitHub":"https://github.com/ahmedKhaireddine",
+        "linkedin":"https://www.linkedin.com/in/ahmed-khaireddine/",
+        "post":"Développeur Fullstack",
+        "technos":"react express node.js",
+        "title":"a voir",
+        "aboutMe":"avoir par la suite"
+    }
+]
